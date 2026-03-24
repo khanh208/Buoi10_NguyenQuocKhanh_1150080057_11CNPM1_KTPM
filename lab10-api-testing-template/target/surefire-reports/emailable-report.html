@@ -9,13 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5,927</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">14,816</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.lab10.tests.bai1.BasicGetUserApiTest</td><td><a href="#m0">testGetSingleUser</a></td><td rowspan="1">1774340682987</td><td rowspan="1">2779</td></tr><tr class="passedeven"><td><a href="#m1">testGetUsersPage1</a></td><td rowspan="1">1774340685846</td><td rowspan="1">840</td></tr><tr class="passedeven"><td><a href="#m2">testGetUsersPage2</a></td><td rowspan="1">1774340686690</td><td rowspan="1">793</td></tr><tr class="passedeven"><td><a href="#m3">testUserNotFound</a></td><td rowspan="1">1774340687486</td><td rowspan="1">719</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.lab10.tests.bai6.ApiUiIntegrationTest</td><td><a href="#m0">testFullUiFlowWhenApiAlive</a></td><td rowspan="1">1774376518813</td><td rowspan="1">47</td></tr><tr class="skippedeven"><td><a href="#m1">testLoginUiAfterApiPrecondition</a></td><td rowspan="1">1774376525094</td><td rowspan="1">10</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">com.lab10.tests.bai1.BasicGetUserApiTest#testGetSingleUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.lab10.tests.bai1.BasicGetUserApiTest#testGetUsersPage1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.lab10.tests.bai1.BasicGetUserApiTest#testGetUsersPage2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.lab10.tests.bai1.BasicGetUserApiTest#testUserNotFound</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">com.lab10.tests.bai6.ApiUiIntegrationTest#testFullUiFlowWhenApiAlive</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: API reqres.in đang không sẵn sàng, skip UI flow
+	at com.lab10.tests.bai6.ApiUiIntegrationTest.testFullUiFlowWhenApiAlive(ApiUiIntegrationTest.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.lab10.tests.bai6.ApiUiIntegrationTest#testLoginUiAfterApiPrecondition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Bỏ qua test UI vì API login precondition thất bại
+	at com.lab10.tests.bai6.ApiUiIntegrationTest.testLoginUiAfterApiPrecondition(ApiUiIntegrationTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

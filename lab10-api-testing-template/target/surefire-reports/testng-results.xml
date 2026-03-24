@@ -1,33 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-24T15:24:42 ICT" name="Surefire suite" finished-at="2026-03-24T15:24:48 ICT" duration-ms="5927">
+  <suite started-at="2026-03-25T01:21:50 ICT" name="Surefire suite" finished-at="2026-03-25T01:22:05 ICT" duration-ms="14816">
     <groups>
     </groups>
-    <test started-at="2026-03-24T15:24:42 ICT" name="Surefire test" finished-at="2026-03-24T15:24:48 ICT" duration-ms="5927">
-      <class name="com.lab10.tests.bai1.BasicGetUserApiTest">
-        <test-method is-config="true" signature="setUpApi()[pri:0, instance:com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c]" started-at="2026-03-24T15:24:42 ICT" name="setUpApi" finished-at="2026-03-24T15:24:42 ICT" duration-ms="663" status="PASS">
+    <test started-at="2026-03-25T01:21:50 ICT" name="Surefire test" finished-at="2026-03-25T01:22:05 ICT" duration-ms="14816">
+      <class name="com.lab10.tests.bai6.ApiUiIntegrationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.lab10.tests.bai6.ApiUiIntegrationTest@13fd2ccd]" started-at="2026-03-25T01:21:50 ICT" name="setUp" finished-at="2026-03-25T01:21:53 ICT" duration-ms="3102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpApi -->
-        <test-method signature="testGetSingleUser()[pri:0, instance:com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c]" started-at="2026-03-24T15:24:42 ICT" name="testGetSingleUser" finished-at="2026-03-24T15:24:45 ICT" duration-ms="2779" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="prepareByApi()[pri:0, instance:com.lab10.tests.bai6.ApiUiIntegrationTest@13fd2ccd]" started-at="2026-03-25T01:21:53 ICT" name="prepareByApi" finished-at="2026-03-25T01:21:58 ICT" duration-ms="4825" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetSingleUser -->
-        <test-method signature="testGetUsersPage1()[pri:0, instance:com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c]" started-at="2026-03-24T15:24:45 ICT" name="testGetUsersPage1" finished-at="2026-03-24T15:24:46 ICT" duration-ms="840" status="PASS">
+        </test-method> <!-- prepareByApi -->
+        <test-method signature="testFullUiFlowWhenApiAlive()[pri:0, instance:com.lab10.tests.bai6.ApiUiIntegrationTest@13fd2ccd]" started-at="2026-03-25T01:21:58 ICT" name="testFullUiFlowWhenApiAlive" description="Bài 6B - API health check ảnh hưởng tới UI flow đầy đủ" finished-at="2026-03-25T01:21:58 ICT" duration-ms="47" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[API reqres.in đang không sẵn sàng, skip UI flow]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: API reqres.in đang không sẵn sàng, skip UI flow
+at com.lab10.tests.bai6.ApiUiIntegrationTest.testFullUiFlowWhenApiAlive(ApiUiIntegrationTest.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetUsersPage1 -->
-        <test-method signature="testGetUsersPage2()[pri:0, instance:com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c]" started-at="2026-03-24T15:24:46 ICT" name="testGetUsersPage2" finished-at="2026-03-24T15:24:47 ICT" duration-ms="793" status="PASS">
+        </test-method> <!-- testFullUiFlowWhenApiAlive -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab10.tests.bai6.ApiUiIntegrationTest@13fd2ccd]" started-at="2026-03-25T01:21:58 ICT" name="tearDown" finished-at="2026-03-25T01:21:59 ICT" duration-ms="729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFullUiFlowWhenApiAlive status=SKIP method=ApiUiIntegrationTest.testFullUiFlowWhenApiAlive()[pri:0, instance:com.lab10.tests.bai6.ApiUiIntegrationTest@13fd2ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetUsersPage2 -->
-        <test-method signature="testUserNotFound()[pri:0, instance:com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c]" started-at="2026-03-24T15:24:47 ICT" name="testUserNotFound" finished-at="2026-03-24T15:24:48 ICT" duration-ms="719" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.lab10.tests.bai6.ApiUiIntegrationTest@13fd2ccd]" started-at="2026-03-25T01:21:59 ICT" name="setUp" finished-at="2026-03-25T01:22:03 ICT" duration-ms="4142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUserNotFound -->
-      </class> <!-- com.lab10.tests.bai1.BasicGetUserApiTest -->
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="prepareByApi()[pri:0, instance:com.lab10.tests.bai6.ApiUiIntegrationTest@13fd2ccd]" started-at="2026-03-25T01:22:03 ICT" name="prepareByApi" finished-at="2026-03-25T01:22:05 ICT" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareByApi -->
+        <test-method signature="testLoginUiAfterApiPrecondition()[pri:0, instance:com.lab10.tests.bai6.ApiUiIntegrationTest@13fd2ccd]" started-at="2026-03-25T01:22:05 ICT" name="testLoginUiAfterApiPrecondition" description="Bài 6A - API precondition pass thì mới login UI và verify inventory" finished-at="2026-03-25T01:22:05 ICT" duration-ms="10" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Bỏ qua test UI vì API login precondition thất bại]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Bỏ qua test UI vì API login precondition thất bại
+at com.lab10.tests.bai6.ApiUiIntegrationTest.testLoginUiAfterApiPrecondition(ApiUiIntegrationTest.java:79)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUiAfterApiPrecondition -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab10.tests.bai6.ApiUiIntegrationTest@13fd2ccd]" started-at="2026-03-25T01:22:05 ICT" name="tearDown" finished-at="2026-03-25T01:22:05 ICT" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginUiAfterApiPrecondition status=SKIP method=ApiUiIntegrationTest.testLoginUiAfterApiPrecondition()[pri:0, instance:com.lab10.tests.bai6.ApiUiIntegrationTest@13fd2ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lab10.tests.bai6.ApiUiIntegrationTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

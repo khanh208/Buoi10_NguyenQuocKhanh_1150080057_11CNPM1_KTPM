@@ -3,8 +3,7 @@ package com.lab10.pages;
 import com.lab10.base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import java.util.List;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class InventoryPage extends BasePage {
     private final By inventoryItems = By.cssSelector(".inventory_item");
@@ -28,8 +27,13 @@ public class InventoryPage extends BasePage {
     }
 
     public InventoryPage addItemByName(String productName) {
-        By productButton = By.xpath("//div[text()='" + productName + "']/ancestor::div[@class='inventory_item']//button");
-        waitAndClick(productButton);
+        // Chuyển tên sản phẩm thành format data-test attribute
+        // Ví dụ: "Sauce Labs Backpack" -> "sauce-labs-backpack"
+        String itemId = productName.toLowerCase().replace(" ", "-");
+        By addButton = By.cssSelector("[data-test='add-to-cart-" + itemId + "']");
+        waitAndClick(addButton);
+        // Chờ badge cập nhật
+        wait.until(ExpectedConditions.presenceOfElementLocated(cartBadge));
         return this;
     }
 
@@ -45,7 +49,7 @@ public class InventoryPage extends BasePage {
     }
 
     public CartPage goToCart() {
-        waitAndClick(cartLink);
+        driver.findElement(By.className("shopping_cart_link")).click();
         return new CartPage(driver);
     }
 }

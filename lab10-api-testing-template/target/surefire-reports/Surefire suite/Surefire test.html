@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 24 15:24:42 ICT 2026</td>
+<td>Started on:</td><td>Wed Mar 25 01:21:50 ICT 2026</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5927 ms)</td>
+<tr><td>Total time:</td><td>14 seconds (14816 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,25 +76,89 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.lab10.tests.bai1.BasicGetUserApiTest.testUserNotFound()'><b>testUserNotFound</b><br>Test class: com.lab10.tests.bai1.BasicGetUserApiTest</td>
-<td></td>
+<td title='com.lab10.tests.bai6.ApiUiIntegrationTest.testFullUiFlowWhenApiAlive()'><b>testFullUiFlowWhenApiAlive</b><br>Test class: com.lab10.tests.bai6.ApiUiIntegrationTest<br>Test method: Bài 6B - API health check ảnh hưởng tới UI flow đầy đủ</td>
+<td><div><pre>org.testng.SkipException: API reqres.in đang không sẵn sàng, skip UI flow
+	at com.lab10.tests.bai6.ApiUiIntegrationTest.testFullUiFlowWhenApiAlive(ApiUiIntegrationTest.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1417325106", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1417325106'><pre>org.testng.SkipException: API reqres.in đang không sẵn sàng, skip UI flow
+	at com.lab10.tests.bai6.ApiUiIntegrationTest.testFullUiFlowWhenApiAlive(ApiUiIntegrationTest.java:100)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
 <td>0</td>
-<td>com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c</td></tr>
+<td>com.lab10.tests.bai6.ApiUiIntegrationTest@13fd2ccd</td></tr>
 <tr>
-<td title='com.lab10.tests.bai1.BasicGetUserApiTest.testGetUsersPage1()'><b>testGetUsersPage1</b><br>Test class: com.lab10.tests.bai1.BasicGetUserApiTest</td>
-<td></td>
+<td title='com.lab10.tests.bai6.ApiUiIntegrationTest.testLoginUiAfterApiPrecondition()'><b>testLoginUiAfterApiPrecondition</b><br>Test class: com.lab10.tests.bai6.ApiUiIntegrationTest<br>Test method: Bài 6A - API precondition pass thì mới login UI và verify inventory</td>
+<td><div><pre>org.testng.SkipException: Bỏ qua test UI vì API login precondition thất bại
+	at com.lab10.tests.bai6.ApiUiIntegrationTest.testLoginUiAfterApiPrecondition(ApiUiIntegrationTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1514721670", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1514721670'><pre>org.testng.SkipException: Bỏ qua test UI vì API login precondition thất bại
+	at com.lab10.tests.bai6.ApiUiIntegrationTest.testLoginUiAfterApiPrecondition(ApiUiIntegrationTest.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
 <td>0</td>
-<td>com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c</td></tr>
-<tr>
-<td title='com.lab10.tests.bai1.BasicGetUserApiTest.testGetSingleUser()'><b>testGetSingleUser</b><br>Test class: com.lab10.tests.bai1.BasicGetUserApiTest</td>
-<td></td>
-<td>2</td>
-<td>com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c</td></tr>
-<tr>
-<td title='com.lab10.tests.bai1.BasicGetUserApiTest.testGetUsersPage2()'><b>testGetUsersPage2</b><br>Test class: com.lab10.tests.bai1.BasicGetUserApiTest</td>
-<td></td>
-<td>0</td>
-<td>com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c</td></tr>
+<td>com.lab10.tests.bai6.ApiUiIntegrationTest@13fd2ccd</td></tr>
 </table><p>
 </body>
 </html>
