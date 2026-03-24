@@ -1,0 +1,15 @@
+com\lab10\utils\DriverFactory.class
+com\lab10\base\BasePage.class
+com\lab10\tests\bai1\BasicGetUserApiTest.class
+com\lab10\tests\bai4\AuthorizationAndErrorHandlingTest.class
+com\lab10\base\ApiBaseTest.class
+com\lab10\tests\bai3\SchemaValidationTest.class
+com\lab10\tests\bai2\UserCrudApiTest.class
+com\lab10\tests\bai6\ApiUiIntegrationTest.class
+com\lab10\pages\InventoryPage.class
+com\lab10\tests\bai5\PerformanceAssertionTest.class
+com\lab10\pages\LoginPage.class
+com\lab10\base\BaseTest.class
+com\lab10\listeners\TestResultListener.class
+com\lab10\base\JsonPlaceholderBaseTest.class
+com\lab10\pages\CartPage.class

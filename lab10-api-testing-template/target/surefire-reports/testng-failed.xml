@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Lab10 API Testing Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.lab10.listeners.TestResultListener"/>
+  </listeners>
+  <test thread-count="5" name="Bai6-Api-Ui-Integration(failed)" verbose="0">
+    <classes>
+      <class name="com.lab10.tests.bai6.ApiUiIntegrationTest">
+        <methods>
+          <include name="testLoginUiAfterApiPrecondition"/>
+          <include name="tearDown"/>
+          <include name="prepareByApi"/>
+          <include name="testFullUiFlowWhenApiAlive"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.lab10.tests.bai6.ApiUiIntegrationTest -->
+    </classes>
+  </test> <!-- Bai6-Api-Ui-Integration(failed) -->
+</suite> <!-- Failed suite [Lab10 API Testing Suite] -->

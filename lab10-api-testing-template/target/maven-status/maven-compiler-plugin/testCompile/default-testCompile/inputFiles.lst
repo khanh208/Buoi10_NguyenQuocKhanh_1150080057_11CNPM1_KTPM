@@ -1,0 +1,15 @@
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\base\ApiBaseTest.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\base\BasePage.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\base\BaseTest.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\base\JsonPlaceholderBaseTest.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\listeners\TestResultListener.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\pages\CartPage.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\pages\InventoryPage.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\pages\LoginPage.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\tests\bai1\BasicGetUserApiTest.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\tests\bai2\UserCrudApiTest.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\tests\bai3\SchemaValidationTest.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\tests\bai4\AuthorizationAndErrorHandlingTest.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\tests\bai5\PerformanceAssertionTest.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\tests\bai6\ApiUiIntegrationTest.java
+E:\NguyenQuocKhanh\tester\Buoi10_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\lab10-api-testing-template\src\test\java\com\lab10\utils\DriverFactory.java

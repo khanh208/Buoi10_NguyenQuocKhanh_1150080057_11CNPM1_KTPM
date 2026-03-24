@@ -1,0 +1,25 @@
+package com.lab10.models;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class LoginRequest {
+    private String email;
+    private String password;
+
+    public LoginRequest() {
+    }
+
+    public LoginRequest(String email, String password) {
+        this.email = email;
+        this.password = password;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+}

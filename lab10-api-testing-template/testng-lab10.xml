@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Lab10 API Testing Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.lab10.listeners.TestResultListener"/>
+    </listeners>
+
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Bai1-ApiBase-Get">
+        <classes>
+            <class name="com.lab10.tests.bai1.BasicGetUserApiTest"/>
+        </classes>
+    </test>
+
+    <test name="Bai2-Crud">
+        <classes>
+            <class name="com.lab10.tests.bai2.UserCrudApiTest"/>
+        </classes>
+    </test>
+
+    <test name="Bai3-Schema">
+        <classes>
+            <class name="com.lab10.tests.bai3.SchemaValidationTest"/>
+        </classes>
+    </test>
+
+    <test name="Bai4-Authorization-ErrorHandling">
+        <classes>
+            <class name="com.lab10.tests.bai4.AuthorizationAndErrorHandlingTest"/>
+        </classes>
+    </test>
+
+    <test name="Bai5-Performance-SLA">
+        <classes>
+            <class name="com.lab10.tests.bai5.PerformanceAssertionTest"/>
+        </classes>
+    </test>
+
+    <test name="Bai6-Api-Ui-Integration">
+        <classes>
+            <class name="com.lab10.tests.bai6.ApiUiIntegrationTest"/>
+        </classes>
+    </test>
+
+</suite>

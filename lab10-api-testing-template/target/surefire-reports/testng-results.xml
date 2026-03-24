@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T15:24:42 ICT" name="Surefire suite" finished-at="2026-03-24T15:24:48 ICT" duration-ms="5927">
+    <groups>
+    </groups>
+    <test started-at="2026-03-24T15:24:42 ICT" name="Surefire test" finished-at="2026-03-24T15:24:48 ICT" duration-ms="5927">
+      <class name="com.lab10.tests.bai1.BasicGetUserApiTest">
+        <test-method is-config="true" signature="setUpApi()[pri:0, instance:com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c]" started-at="2026-03-24T15:24:42 ICT" name="setUpApi" finished-at="2026-03-24T15:24:42 ICT" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpApi -->
+        <test-method signature="testGetSingleUser()[pri:0, instance:com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c]" started-at="2026-03-24T15:24:42 ICT" name="testGetSingleUser" finished-at="2026-03-24T15:24:45 ICT" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSingleUser -->
+        <test-method signature="testGetUsersPage1()[pri:0, instance:com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c]" started-at="2026-03-24T15:24:45 ICT" name="testGetUsersPage1" finished-at="2026-03-24T15:24:46 ICT" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPage1 -->
+        <test-method signature="testGetUsersPage2()[pri:0, instance:com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c]" started-at="2026-03-24T15:24:46 ICT" name="testGetUsersPage2" finished-at="2026-03-24T15:24:47 ICT" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPage2 -->
+        <test-method signature="testUserNotFound()[pri:0, instance:com.lab10.tests.bai1.BasicGetUserApiTest@7b36aa0c]" started-at="2026-03-24T15:24:47 ICT" name="testUserNotFound" finished-at="2026-03-24T15:24:48 ICT" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserNotFound -->
+      </class> <!-- com.lab10.tests.bai1.BasicGetUserApiTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
